@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Employ>
+@{
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1>Employ</h1>
+    <table border="1">
+        <tr>
+            <td> Id</td>
+            <td>name</td>
+            <td>email</td>
+            <td>dept</td>
+            </tr>
+        @foreach(var emp in Model)
+        {
+    <tr>
+        <td>@emp.Id</td>
+        <td>@emp.Name</td>
+        <td>@emp.Email</td>
+        <td>@emp.dept</td>
+    </tr>
+        }
+        </table>
+
+</body>
+</html>
+

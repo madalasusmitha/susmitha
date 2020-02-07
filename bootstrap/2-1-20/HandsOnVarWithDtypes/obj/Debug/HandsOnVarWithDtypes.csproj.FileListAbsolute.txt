@@ -1,0 +1,6 @@
+E:\Navya\2-1-20\HandsOnVarWithDtypes\obj\Debug\HandsOnVarWithDtypes.csprojAssemblyReference.cache
+E:\Navya\2-1-20\HandsOnVarWithDtypes\bin\Debug\HandsOnVarWithDtypes.exe.config
+E:\Navya\2-1-20\HandsOnVarWithDtypes\bin\Debug\HandsOnVarWithDtypes.exe
+E:\Navya\2-1-20\HandsOnVarWithDtypes\bin\Debug\HandsOnVarWithDtypes.pdb
+E:\Navya\2-1-20\HandsOnVarWithDtypes\obj\Debug\HandsOnVarWithDtypes.exe
+E:\Navya\2-1-20\HandsOnVarWithDtypes\obj\Debug\HandsOnVarWithDtypes.pdb

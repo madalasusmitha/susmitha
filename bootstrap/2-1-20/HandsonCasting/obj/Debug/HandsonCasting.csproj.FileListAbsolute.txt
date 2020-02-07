@@ -1,0 +1,6 @@
+E:\Navya\2-1-20\HandsonCasting\obj\Debug\HandsonCasting.csprojAssemblyReference.cache
+E:\Navya\2-1-20\HandsonCasting\bin\Debug\HandsonCasting.exe.config
+E:\Navya\2-1-20\HandsonCasting\bin\Debug\HandsonCasting.exe
+E:\Navya\2-1-20\HandsonCasting\bin\Debug\HandsonCasting.pdb
+E:\Navya\2-1-20\HandsonCasting\obj\Debug\HandsonCasting.exe
+E:\Navya\2-1-20\HandsonCasting\obj\Debug\HandsonCasting.pdb

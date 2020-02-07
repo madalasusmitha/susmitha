@@ -1,0 +1,38 @@
+﻿@model Employeee.Models.Emoloye
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+@using (Html.BeginForm())
+{
+    <table class="table table-bordered">
+        <tr>
+            <td>eid</td>
+            <td>@Html.TextBoxFor(m => m.eid)</td>
+        </tr>
+        <tr>
+            <td>name</td>
+            <td>@Html.TextBoxFor(m => m.name)</td>
+        </tr>
+        <tr>
+            <td>Designation</td>
+            <td>@Html.TextBoxFor(m => m.des)</td>
+        </tr>
+        <tr>
+            <td>projectname</td>
+            <td>@Html.TextBoxFor(m => m.pname)</td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>@Html.Password("pwd")</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Register" />
+            </td>
+        </tr>
+
+    </table>
+}

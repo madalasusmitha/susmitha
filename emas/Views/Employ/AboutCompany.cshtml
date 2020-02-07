@@ -1,0 +1,36 @@
+﻿
+@model emas.Models.EmployeeViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AboutCompany</title>
+</head>
+<body>
+    <h1>Employ</h1>
+    <table border="1">
+        <tr>
+            <td> Id</td>
+            <td>name</td>
+            <td>email</td>
+            <td>dept</td>
+
+
+        </tr>
+        <tr>
+            <td>@Model.employee.Id</td>
+            <td>@Model.employee.Name</td>
+            <td>@Model.employee.Email</td>
+            <td>@Model.employee.dept</td>
+            <td>@Model.projectName</td>
+
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,6 @@
+let mystring :string;
+let MyNumber :number;
+mystring ="TypeScript"
+MyNumber="180"
+console.log(mystring);
+console.log(MyNumber);

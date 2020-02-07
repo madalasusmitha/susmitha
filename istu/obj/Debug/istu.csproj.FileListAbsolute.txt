@@ -1,0 +1,6 @@
+E:\Madhu\istu\bin\Debug\istu.exe.config
+E:\Madhu\istu\bin\Debug\istu.exe
+E:\Madhu\istu\bin\Debug\istu.pdb
+E:\Madhu\istu\obj\Debug\istu.csprojAssemblyReference.cache
+E:\Madhu\istu\obj\Debug\istu.exe
+E:\Madhu\istu\obj\Debug\istu.pdb

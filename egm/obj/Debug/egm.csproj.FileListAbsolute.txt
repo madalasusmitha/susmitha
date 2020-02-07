@@ -1,0 +1,6 @@
+E:\Madhu\egm\bin\Debug\egm.exe.config
+E:\Madhu\egm\bin\Debug\egm.exe
+E:\Madhu\egm\bin\Debug\egm.pdb
+E:\Madhu\egm\obj\Debug\egm.csprojAssemblyReference.cache
+E:\Madhu\egm\obj\Debug\egm.exe
+E:\Madhu\egm\obj\Debug\egm.pdb

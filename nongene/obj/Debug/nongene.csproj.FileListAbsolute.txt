@@ -1,0 +1,6 @@
+E:\Madhu\nongene\bin\Debug\nongene.exe.config
+E:\Madhu\nongene\bin\Debug\nongene.exe
+E:\Madhu\nongene\bin\Debug\nongene.pdb
+E:\Madhu\nongene\obj\Debug\nongene.csprojAssemblyReference.cache
+E:\Madhu\nongene\obj\Debug\nongene.exe
+E:\Madhu\nongene\obj\Debug\nongene.pdb

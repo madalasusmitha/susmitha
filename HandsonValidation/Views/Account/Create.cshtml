@@ -1,0 +1,93 @@
+﻿@model HandsonValidation.Models.Employee
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+@using (Html.BeginForm())
+{
+<table class="table table-bordered">
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.ID)</td>
+        <td>@Html.EditorFor(m => m.ID)</td>
+        <td>@Html.ValidationMessageFor(m => m.ID)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.Name)</td>
+        <td>@Html.EditorFor(m => m.Name)</td>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.ID)</td>
+        <td>@Html.EditorFor(m => m.ID)</td>
+        <td>@Html.ValidationMessageFor(m => m.ID)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.Name)</td>
+        <td>@Html.EditorFor(m => m.Name)</td>
+        <td>@Html.ValidationMessageFor(m => m.Name)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.Email)</td>
+        <td>@Html.EditorFor(m => m.Email)</td>
+        <td>@Html.ValidationMessageFor(m => m.Email)</td>
+    </tr>
+
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.Mobile)</td>
+        <td>@Html.EditorFor(m => m.Mobile)</td>
+        <td>@Html.ValidationMessageFor(m => m.Mobile)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.uname)</td>
+        <td>@Html.EditorFor(m => m.uname)</td>
+        <td>@Html.ValidationMessageFor(m => m.uname)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.Pwd)</td>
+        <td>@Html.EditorFor(m => m.Pwd)</td>
+        <td>@Html.ValidationMessageFor(m => m.Pwd)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.cpwd)</td>
+        <td>@Html.EditorFor(m => m.cpwd)</td>
+        <td>@Html.ValidationMessageFor(m => m.cpwd)</td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <input type="submit" value="Register" class="btn btn-primary" />
+        </td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.Email)</td>
+        <td>@Html.EditorFor(m => m.Email)</td>
+        <td>@Html.ValidationMessageFor(m => m.Email)</td>
+    </tr>
+
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.Mobile)</td>
+        <td>@Html.EditorFor(m => m.Mobile)</td>
+        <td>@Html.ValidationMessageFor(m => m.Mobile)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.uname)</td>
+        <td>@Html.EditorFor(m => m.uname)</td>
+        <td>@Html.ValidationMessageFor(m => m.uname)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.Pwd)</td>
+        <td>@Html.EditorFor(m => m.Pwd)</td>
+        <td>@Html.ValidationMessageFor(m => m.Pwd)</td>
+    </tr>
+    <tr>
+        <td>@Html.DisplayNameFor(m => m.cpwd)</td>
+        <td>@Html.EditorFor(m => m.cpwd)</td>
+        <td>@Html.ValidationMessageFor(m => m.cpwd)</td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <input type="submit" value="Register" class="btn btn-primary" />
+        </td>
+    </tr>
+</table>
+}.
+

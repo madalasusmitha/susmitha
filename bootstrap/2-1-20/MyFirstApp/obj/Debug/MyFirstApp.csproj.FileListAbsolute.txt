@@ -1,0 +1,6 @@
+E:\Navya\2-1-20\MyFirstApp\bin\Debug\MyFirstApp.exe.config
+E:\Navya\2-1-20\MyFirstApp\bin\Debug\MyFirstApp.exe
+E:\Navya\2-1-20\MyFirstApp\bin\Debug\MyFirstApp.pdb
+E:\Navya\2-1-20\MyFirstApp\obj\Debug\MyFirstApp.csprojAssemblyReference.cache
+E:\Navya\2-1-20\MyFirstApp\obj\Debug\MyFirstApp.exe
+E:\Navya\2-1-20\MyFirstApp\obj\Debug\MyFirstApp.pdb

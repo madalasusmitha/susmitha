@@ -1,0 +1,65 @@
+﻿@model Handsonmvc.Models.User
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+@using (Html.BeginForm())
+{
+<table class="table table-bordered">
+    <tr>
+        <td>Name</td>
+        <td>@Html.TextBoxFor(m => m.name)</td>
+        <td>@Html.ValidationMessageFor(m => m.name)</td>
+
+    </tr>
+    <tr>
+        <td>Dob</td>
+        <td>@Html.TextBoxFor(m => m.Dob, null, new { @type = "Date" })</td>
+        <td>@Html.ValidationMessageFor(m => m.Dob)</td>
+
+    </tr>
+    <tr>
+        <td>email</td>
+        <td>@Html.TextBoxFor(m => m.email)</td>
+        <td>@Html.ValidationMessageFor(m => m.email)</td>
+
+    </tr>
+    <tr>
+        <td>mobile</td>
+        <td>@Html.TextBoxFor(m => m.Mobile)</td>
+        <td>@Html.ValidationMessageFor(m => m.Mobile)</td>
+
+    </tr>
+    <tr>
+        <td>Country</td>
+        <td>
+           @* @Html.DropDownListFor(m => m.Country,new SelectList(new string[] { "india", "china", "us", "uk" }))
+        
+               *@
+            <td>
+                @Html.DropDownListFor(m=>m.Country,ViewBag.Country as SelectList)
+        </td>
+    </tr>
+    <tr>
+        <td>uname</td>
+        <td>@Html.TextBox("uname")</td>
+        <td>@Html.ValidationMessageFor(m => m.uname)</td>
+
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td>@Html.Password("Password")</td>
+        <td>@Html.ValidationMessageFor(m => m.Password)</td>
+
+    </tr>
+    <tr>
+        <td colspan="2">
+            <input type="submit" value="Register" class="btn btn-primary" />
+        </td>
+    </tr>
+
+</table>
+}
+

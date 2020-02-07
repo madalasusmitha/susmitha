@@ -1,0 +1,6 @@
+E:\Navya\2-1-20\parsedemo\bin\Debug\parsedemo.exe.config
+E:\Navya\2-1-20\parsedemo\bin\Debug\parsedemo.exe
+E:\Navya\2-1-20\parsedemo\bin\Debug\parsedemo.pdb
+E:\Navya\2-1-20\parsedemo\obj\Debug\parsedemo.csprojAssemblyReference.cache
+E:\Navya\2-1-20\parsedemo\obj\Debug\parsedemo.exe
+E:\Navya\2-1-20\parsedemo\obj\Debug\parsedemo.pdb

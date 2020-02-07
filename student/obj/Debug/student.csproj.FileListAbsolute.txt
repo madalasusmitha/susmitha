@@ -1,0 +1,6 @@
+E:\Madhu\student\bin\Debug\student.exe.config
+E:\Madhu\student\bin\Debug\student.exe
+E:\Madhu\student\bin\Debug\student.pdb
+E:\Madhu\student\obj\Debug\student.exe
+E:\Madhu\student\obj\Debug\student.pdb
+E:\Madhu\student\obj\Debug\student.csprojAssemblyReference.cache

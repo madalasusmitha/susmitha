@@ -1,0 +1,35 @@
+﻿@model Employ
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+@*Name @Html.TextBoxFor(m =>m.Name, "enter name")
+<br/>
+<br/>
+ Password @Html.PasswordFor("m=>m.Id");
+<br/>
+Program @Html.ListBox("l1",new MultiSelectList(new[] { "asp","asp.net"}))
+<br/>*@
+<form asp-controller="Employ" asp-action="Create">
+    <div class="form-row">
+        <label asp-for="Name" class="col=form-label">Name</label>
+        <input asp-for="Name" class="col-lg-6" />
+        <span asp-validation-for="Name"></span>
+    </div>
+    <div class="form-row">
+        <label asp-for="Email" class="col=form-label">Email</label>
+        <input asp-for="Email" class="col-lg-6" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div class="form-row">
+        <label asp-for="dept" class="col=form-label">dept</label>
+        <select asp-for="dept" class="col-lg-6" asp-items="Html.GetEnumSelectList<Dept>()"></select>
+    </div>
+    <div class="form-row">
+        @*<input type="submit" value="create Employee" />*@
+        <button type="submit" value="Create">Create</button>
+
+    </div>
+  
+</form>

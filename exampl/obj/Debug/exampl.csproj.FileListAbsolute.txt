@@ -1,0 +1,6 @@
+E:\Madhu\exampl\bin\Debug\exampl.exe.config
+E:\Madhu\exampl\bin\Debug\exampl.exe
+E:\Madhu\exampl\bin\Debug\exampl.pdb
+E:\Madhu\exampl\obj\Debug\exampl.csprojAssemblyReference.cache
+E:\Madhu\exampl\obj\Debug\exampl.exe
+E:\Madhu\exampl\obj\Debug\exampl.pdb

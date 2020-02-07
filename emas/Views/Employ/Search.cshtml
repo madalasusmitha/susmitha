@@ -1,0 +1,62 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Search</title>
+    @model emas.Models.Employ
+    @{ 
+        Layout = null;
+    }
+
+</head>
+<body>
+    
+    
+    @{var emp1=@ViewData["Employ"] as emas.Models.Employ;
+    }
+    <h1>Employ</h1>
+    <table border="1">
+        <tr>
+            <td> Id</td>
+            <td>name</td>
+            <td>email</td>
+            <td>dept</td>
+
+
+        </tr>
+        <tr>
+            <td>@emp1.Id</td>
+            <td>@emp1.Name</td>
+            <td>@emp1.Email</td>
+            <td>@emp1.dept</td>
+        </tr>
+        <tr>
+            <td>
+                @ViewBag.Employ.Id;
+            </td>
+            <td>
+                @ViewBag.Employ.Name;
+            </td>
+            <td>
+                @ViewBag.Employ.Email;
+            </td>
+            <td>
+                @ViewBag.Employ.dept;
+            </td>
+        </tr>
+
+        <tr>
+            <td>@Model.Id</td>
+            <td>@Model.Name</td>
+            <td>@Model.Email</td>
+            <td>@Model.dept</td>
+        </tr>
+    </table>
+</body>
+</html>

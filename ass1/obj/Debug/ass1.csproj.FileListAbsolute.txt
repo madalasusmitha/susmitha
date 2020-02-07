@@ -1,0 +1,6 @@
+E:\susmitha\ass1\bin\Debug\ass1.exe.config
+E:\susmitha\ass1\bin\Debug\ass1.exe
+E:\susmitha\ass1\bin\Debug\ass1.pdb
+E:\susmitha\ass1\obj\Debug\ass1.csprojAssemblyReference.cache
+E:\susmitha\ass1\obj\Debug\ass1.exe
+E:\susmitha\ass1\obj\Debug\ass1.pdb

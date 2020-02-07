@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.min.css" />
+    <script src="~/lib/twitter-bootstrap/js/bootstrap.min.js"></script>
+    <link href="~/lib/twitter-bootstrap/css/bootstrap.css" />
+</head>
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <h1 class="align-content-start alert-primary"> WElcome to cts</h1>
+                <a class="btn-info" href="#">CTS</a>
+                @*<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                *@
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav list-group-horizontal">
+                    @*<li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        /*
+                        <li><a asp-page="/Index">Home</a></li>
+                        <li><a asp-page="/About">About</a></li>
+                        <li><a asp-page="/Contact">Contact</a></li>*/*@
+                    <li><a href="/Employ/Index">display</a></li>
+                    <li>@Html.ActionLink("details","search","Employ",new { id = 1 }) </li>
+                    @*<li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>*@
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        
+        @RenderBody()
+
+    </div>
+    <div>
+        <partial name="~/Views/Employ/_mypartial.cshtml" />
+    </div>
+
+</body>
+</html>
